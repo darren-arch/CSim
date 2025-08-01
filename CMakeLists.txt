@@ -1,0 +1,1 @@
+g++ -std=c++17 -o PhysicsSim main.cpp Object.cpp Vector2D.cpp

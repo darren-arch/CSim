@@ -4,7 +4,7 @@
 #include <thread>
 
 int main() {
-    Object ball({0, 0}, {5, 10}, 1.0);
+    Object ball({10, 10}, {5, 10}, 1.0);
     Vector2D gravity(0, -9.81);
 
     double dt = 0.016;  // ~60 FPS
